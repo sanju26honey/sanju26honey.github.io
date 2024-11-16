@@ -2,7 +2,7 @@
     --text: #2b2d42ff;
     --grey: #8d99aeff;
     --bg: #edf2f4ff;
-    --light-red: #ef233cff;
+    --light-red: rgb(240, 87, 105);
     --red: #d90429ff;
   }
 
@@ -10,7 +10,13 @@
   html, body {
     height: 100%;
     background: var(--bg) !important;
+    color: var(--text) !important;
+
     /* overflow: hidden; */
+  }
+
+  .body-text {
+    color: var(--text);
   }
   
   .body {
@@ -72,11 +78,11 @@
   
   }
   
-  h4 > a {
+  h4 > a, h5 > a {
     color: var(--light-red) !important;
   }
   
-  h4 {
+  h4, h5 {
     color: var(--light-red) !important;
   }
   
@@ -121,6 +127,9 @@ body>* {
 body>*::-webkit-scrollbar { /* WebKit */
     width: 0 !important;
     height: 0 !important;
+}
+.badge {
+  background-color: #bed3f7 !important;
 }
   @media screen and (max-width: 600px) {
     .dp {
