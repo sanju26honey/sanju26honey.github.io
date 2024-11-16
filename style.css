@@ -147,7 +147,9 @@ body>*::-webkit-scrollbar { /* WebKit */
     }
 
     .dp {
-        overflow: hidden;
+      min-height: 75vh !important;
+      max-height: 75vh !important;
+      overflow: hidden;
       overflow-y: hidden !important;
 
     }
