@@ -105,7 +105,7 @@
   }
 
   .scroll-section {
-    height: 100vh !important;
+    min-height: 100vh !important;
     scroll-snap-align: start !important;
     overflow-x: hidden;
   }
@@ -141,9 +141,9 @@ body>*::-webkit-scrollbar { /* WebKit */
      text-align: center
     }
     .scroll-section {
-        min-height: 100vh !important;
-        max-height: 100vh !important;
-        overflow-y: auto;
+        /* min-height: 100vh !important; */
+        /* max-height: 100vh !important; */
+        /* overflow-y: auto; */
     }
 
     .dp {
@@ -169,9 +169,13 @@ body>*::-webkit-scrollbar { /* WebKit */
     .social .iconify {
       font-size: 1em;
     }
-
+    
     .social > h4 {
       padding: 0;
       font-size: 1em;
     }
   }
+
+a {
+  word-break: break-word;
+}
