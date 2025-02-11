@@ -29,7 +29,7 @@
 
   .scroll-parent {
     height: 100vh !important;
-    scroll-snap-type: y proximity !important;
+    scroll-snap-type: y mandatory !important;
     overflow-y: scroll;
   }
   
