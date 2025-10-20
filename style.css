@@ -147,11 +147,18 @@ body>*::-webkit-scrollbar { /* WebKit */
     }
 
     .dp {
-      min-height: 75vh !important;
-      max-height: 75vh !important;
+      min-height: 100vh !important;
+      max-height: 100vh !important;
       overflow: hidden;
       overflow-y: hidden !important;
 
+    }
+    
+    .text-content {
+      position: absolute;
+      bottom: 0;
+
+      background-color: rgba(255, 255, 255, 0.7);
     }
     .b-name {
      font-size: 2em;
